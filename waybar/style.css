@@ -1,5 +1,5 @@
 * {
-    font-family: "JetBrains Mono";
+    font-family: "Terminus bold";
     font-weight: 600;
 }
 
@@ -13,10 +13,20 @@
 }
 
 window#waybar {
-    background-color: #181825;
+    background-color:rgba(24, 24, 37, 1);
     border: 2px solid #b4befe;
     padding-left: 6px;
 }
+
+#cpu {
+    padding-left: 6px;
+}
+
+
+#memory {
+    padding-left: 6px;
+}
+
 
 #battery.warning {
     border: 2px solid #f9e2af;
@@ -30,13 +40,13 @@ window#waybar {
     background-color: #b4befe;
 }
 
-#workspaces {
+#hyprland-workspaces {
     border: 2px solid #b4befe;
     padding-left: 0;
     padding-right: 0;
 }
 
-#workspaces button {
+#hyprland-workspaces button {
     border-radius: 0;
     color: #cdd6f4;
     padding-left: 8px;
